@@ -71,7 +71,7 @@ Once R and RStudio are installed or updated, open RStudio and run the following 
 
 ## 5. Download R Script
 
-The R script is a file with extension .r and contains the code to execute the program. 
+The R script is a file with extension .R and contains the code to execute the program. 
 
 - **Download script:**
   - You can download the R script [here](linreg.R).
