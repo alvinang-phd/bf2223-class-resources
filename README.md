@@ -67,4 +67,31 @@ Once R and RStudio are installed or updated, open RStudio and run the following 
   - library(zoo)
   - library(caret)
 
- 
+---
+
+## 5. Download R Script
+
+The R script is a file with extension .r and contains the code to execute the program. 
+
+- **Download script:**
+  - You can download the R script [here](linreg.r).
+  - Alternatively, download the R script from NTULearn. 
+
+- **Execute program:**
+  - Save the R script in a folder on your computer. 
+  - In RStudio, set the working directory to the folder where you saved your script. You can do this by typing the following command in the Console, replacing "[pathname]" with the actual path to your folder:
+    - setwd("path/to/your/folder")
+  - Try running the R script by typing the following command in the Console:
+    - source("linreg.r") 
+
+
+
+
+
+
+
+
+
+
+
+
