@@ -84,7 +84,7 @@ The R script is a file with extension .r and contains the code to execute the pr
   - Try running the R script by typing the following command in the Console:
     - source("linreg.r") 
 
-
+END
 
 
 
