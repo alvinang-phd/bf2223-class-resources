@@ -1,7 +1,3 @@
----
-title: Home
----
-
 # BF2223 FinTech for Investment Management (NTU)
 ## Alvin Ang, PhD, CFA
 
