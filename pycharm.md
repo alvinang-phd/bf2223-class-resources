@@ -84,3 +84,14 @@ PyCharm is available in two editions:
 ---
 
 ✅ You have successfully installed and set up PyCharm on your system!
+
+---
+
+## 6. Download Python Script
+
+The Python script is a file with extension .py and contains the code to execute the program. 
+
+- **Download script:**
+  - You can download the Python script [here](blockchain.py).
+  - Alternatively, download the Python script from NTULearn. 
+
