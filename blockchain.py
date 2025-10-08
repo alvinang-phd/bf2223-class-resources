@@ -23,7 +23,7 @@ class Blockchain:
     def __init__(self):
         self.chain = []
         self.pending_transactions = []
-        self.difficulty = 6  # Number of leading zeros required in hash
+        self.difficulty = 2  # Number of leading zeros required in hash
         self.create_genesis_block()
 
     def create_genesis_block(self):
@@ -82,8 +82,11 @@ class Blockchain:
         for i in range(1, len(self.chain)):
             current = self.chain[i]
             previous = self.chain[i - 1]
-
-            if current.hash != current.compute_hash():
+            
+            # Recalculate hash for the current block
+            recalculated_hash = current.compute_hash()
+            
+            if current.hash != recalculated_hash:
                 return False
             if current.previous_hash != previous.hash:
                 return False
@@ -118,7 +121,8 @@ for block in my_blockchain.chain:
     print(f"Block {block.index}")
     print(f"Timestamp: {block.timestamp}")
     print(f"Transactions: {block.transactions}")
-    print(f"Hash: {block.hash}")
+    print(f"Stored Hash: {block.hash}")
+    print(f"Recalculated Hash: {block.compute_hash()}")
     print(f"Previous Hash: {block.previous_hash}")
     print("-" * 40)
 
